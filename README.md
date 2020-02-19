@@ -54,6 +54,11 @@ This is a list to help people understand [EventStore](http://eventstore.com/) as
 
 - ⚡️ [Propulsion Project](https://github.com/jet/propulsion) - .NET event stream projection and scheduling platform with EventStore, CosmosDb, Equinox and Kafka integrations
   - ⚡️ [EventStore Client for Propulsion](https://www.nuget.org/packages/Propulsion.EventStore/) - Provides bindings to EventStore
+### JVM
+#### Scala
+- ⚡️ [Official EventStore client](https://github.com/EventStore/EventStore.JVM) - Event Store JVM Client 
+#### Java
+-  ⚡️ [EventStore Java Client](https://github.com/msemys/esjc) - This is EventStore driver for Java, that uses Netty for network communication and GSON for object serialization/deserialization to JSON
 
 ### Erlang
 - 🏚 [EventStore Client](https://github.com/exponentially/extreme) - Elixir Adapter for EventStore
@@ -70,10 +75,6 @@ This is a list to help people understand [EventStore](http://eventstore.com/) as
  - ⚡ [Official Nodejs EventStore Client](https://github.com/EventStore/EventStore-Client-NodeJS) - not sure if this is in npm
  - ⚡️ [Nodejs EventStore Client by Nicolas Dextraze](https://github.com/nicdex/node-eventstore-client)
  - ⚡️ [Nodejs EventStore Client by Carey Bishop](https://github.com/x-cubed/event-store-client)
-### JVM
-#### Scala
-- ⚡️ [Official EventStore client](https://github.com/EventStore/EventStore.JVM) - Event Store JVM Client 
-#### Java
 ## Tools
 ## Visualization
  - ⚡️ [EventStore Exporter](https://github.com/marcinbudny/eventstore_exporter) - metrics Prometheus exporter
