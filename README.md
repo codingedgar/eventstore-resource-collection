@@ -23,26 +23,47 @@ This is a list to help people understand [EventStore](http://eventstore.com/) as
 ### Stack Overflow
 - ⚡️ [Stack Overflow tag](https://stackoverflow.com/questions/tagged/get-event-store) - note: play with filters, there're many more than the ones showed by that link.
 
-## Content
-### Blog articles
- - 🧓 [EventStore for Orleans Grain Persistence](https://codeopinion.com/eventstore-for-orleans-grain-persistence/)
- - 🧓 [Explaining Greg's Event Store](https://blog.arkency.com/2015/03/explaining-gregs-event-store/)
- - 🧓 [Event Sourcing - Step by step in F#](https://medium.com/@dzoukr/event-sourcing-step-by-step-in-f-be808aa0ca18)
-### Slides
-- 🧓 [How to write your database: the story about Event Store](https://www.slideshare.net/vhaydin/it-weekendukraine2013event-store)
-### Videos
-- 🧓 [A deep look into the Event Store](https://vimeo.com/53153270)
+## Learning Resources
 ### Books
 ### Blogs
 ### YouTube channels
 ### Online Courses
-
-## Examples by language
-### C#
-- 🎖⚡️ [.NET examples](https://github.com/EventStore/EventStore.Samples.Dotnet) - Samples with the dotnetapi
-
-### F#
+### Blog articles
+ - 🧓 [EventStore for Orleans Grain Persistence](https://codeopinion.com/eventstore-for-orleans-grain-persistence/)
+ - 🧓 [Explaining Greg's Event Store](https://blog.arkency.com/2015/03/explaining-gregs-event-store/)
+ - 🧓 [Event Sourcing - Step by step in F#](https://medium.com/@dzoukr/event-sourcing-step-by-step-in-f-be808aa0ca18)
+ - ⚡️ [Bi-Temporal Event Sourcing with Equinox](https://andrewcmeier.com/bi-temporal-event-sourcing) - Very detailed
+### Videos
+- 🧓 [A deep look into the Event Store](https://vimeo.com/53153270)
+### Github
+- 🎖⚡️ [C# examples of the .NET Client](https://github.com/EventStore/EventStore.Samples.Dotnet) - Samples with the dotnetapi
 - ⚡️ [Equinox Examples](https://github.com/jet/equinox/tree/master/samples) - Examples using Equinox Framework.
+- ⚡️ [Example of a Bi-temporal domain using Jet.com's Equinox Event Sourcing Platform](https://github.com/ameier38/equinox-tutorial)
+  - __Features__
+    - Bi-temporal, event sourced API in F# using 
+[Jet.com's Equinox platform](https://github.com/jet/equinox) 
+and [gRPC](https://grpc.io/) :milky_way:.
+    - Protobuf files compiled with 
+[Uber's Prototool](https://github.com/uber/prototool) :wrench:.
+    - Fully typed GraphQL API using 
+[FSharp.Data.GraphQL](https://github.com/fsprojects/FSharp.Data.GraphQL) :fireworks:.
+    - Centralized logging with [Seq](https://datalust.co/seq) :scroll:.
+    - Web application using [React](https://reactjs.org/) 
+and [TypeScript](https://www.typescriptlang.org/) :computer:.
+    - Fully Dockerized for fast local development :whale:.
+    - Integration tests and example CI using [GitHub Actions](https://github.com/features/actions) :zap:.
+    - Build automation using [FAKE](https://github.com/fsharp/FAKE) :hammer:.
+    ![Example](https://github.com/ameier38/equinox-tutorial/blob/master/images/time-travel.gif?raw=true)
+- ⚡️ [F# examples using .NET client](https://github.com/edgarjrg/EventStore.Samples.FSharp)
+### Slides
+- 🧓 [How to write your database: the story about Event Store](https://www.slideshare.net/vhaydin/it-weekendukraine2013event-store)
+## Companies using EventStore
+- ⚡️ [Jet.com](https://jet.com/)
+  - By
+    - [Equinox](https://github.com/jet/equinox)
+    - [propulsion](https://github.com/jet/propulsion)
+  - Other Resources
+    - [Jet.com Tech Blog](https://medium.com/jettech)
 
 ## Clients by language
 ### .NET
