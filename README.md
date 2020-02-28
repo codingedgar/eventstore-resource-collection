@@ -38,6 +38,7 @@ This is a list to help people understand [EventStore](http://eventstore.com/) as
 ### Github
 - 🎖⚡️ [C# examples of the .NET Client](https://github.com/EventStore/EventStore.Samples.Dotnet) - Samples with the dotnetapi
 - ⚡️ [Equinox Examples](https://github.com/jet/equinox/tree/master/samples) - Examples using Equinox Framework.
+- ⚡️ [Example apps and microservice templates using Equinox](https://github.com/jet/dotnet-templates)
 - ⚡️ [Example of a Bi-temporal domain using Jet.com's Equinox Event Sourcing Platform](https://github.com/ameier38/equinox-tutorial)
   - __Features__
     - Bi-temporal, event sourced API in F# using 
